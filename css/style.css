@@ -202,6 +202,7 @@ body {
     font-size: 48px;
     line-height: 53px;
     color: #121212;
+    margin-bottom: 14px;
 }
 .title{
     font-weight: bold;
@@ -210,7 +211,9 @@ body {
     display: flex;
     align-items: center;
     color: #000000;
-    margin-bottom: 44px;
+}
+.about-hr{
+    margin-bottom: 30px;
 }
 .about-item{
     display: flex;
@@ -250,13 +253,19 @@ body {
     background-repeat: no-repeat;
 }
 .content{
-    margin-right: 40px;
+    padding-left: 50px;
     background-image: url('../images/dot-box.svg');
-    background-position: left bottom;
+    background-position: left 470px;
     background-repeat: no-repeat;
 }
 .serv-title{
     padding-top: 70px;
+    margin-bottom: 30px;
+}
+.serv-hr{
+    width: 121px;
+    border: 1px solid #dedede;
+    margin-bottom: 33px;
 }
 .provide-text{
     font-size: 16px;
@@ -276,7 +285,6 @@ body {
 .img-list{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
 }
 .img-item:nth-child(2n+1){
     margin-right: 15px;
@@ -310,7 +318,7 @@ body {
     background-size: 73px 116px, 87px 97px;
     padding-top: 10px;
     padding-left: 10px;
-    /* padding-bottom: 0,40px; */
+    padding-right: 20px;
     background-image: url('../images/yellow-img.svg'), url('../images/dot-box.svg');
     background-position: top left, bottom right;
     background-repeat: no-repeat, no-repeat;
@@ -320,7 +328,10 @@ body {
 }
 .succes-title{
     padding-top: 61px;
-    margin-bottom: 52px;
+    margin-bottom: 25px;
+}
+.succes-hr{
+    margin-bottom: 27px;
 }
 .suces-item-price{
     font-weight: bold;
@@ -393,17 +404,111 @@ body {
 .customer-title{
     margin-bottom: 75px;
 }
+.custom-img-box{
+    margin: 0 auto;
+    text-align: center;
+}
+.custom-img{
+    margin-bottom: 40px;
+}
+.custom-text{
+    text-align: center;
+    margin: 0 auto;
+    width: 650px;
+    margin-bottom: 32px;
+}
+.custom-link{
+    padding-top: 155px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
 
 
 
 
+.get-in-inner{
+    display: flex;
+    padding: 5px 28px 129px 40px;
+}
+.get-in-img{
+    padding-top: 35px;
+    margin-left: auto;
+    margin-bottom: 8px;
+}
+.map-img{
+    margin-right: 21px;
+}
+.get-in-map{
+    font-style: normal;
+    font-weight: normal;
+    width: 193px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+    margin-left: auto;
+    text-align: center;
+    align-items: center;
+}
+.get-in-img-box{
+    width: 654px;
+    height: 393px;
+    padding-left: 50px;
+    background-image: url('../images/dot-box.svg');
+    background-position: left 200px;
+    background-repeat: no-repeat;
+}
 
+.get-in-info{
+    width: 456px;
+}
+.get-in-box{
+    display: flex;
+}
 
-
-
-
-
-
+.get-in-title{
+    margin-bottom: 33px;
+}
+.name-box{
+    display: flex;
+}
+.name-label-box{
+    margin-right: 16px;
+}
+.label{
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4f4f4f;
+    margin-bottom: 8px;
+}
+.input-label{
+    background: #F7F8F9;
+    border-radius: 8px;
+    width: 220px;
+    border: none;
+    outline: none;
+    padding: 16px 50px 16px 16px;
+    margin-bottom: 24px;
+}
+.email{
+    width: 456px;
+}
+.message{
+    width: 456px;
+    height: 120px;
+    margin-bottom: 40px;
+}
+.btn-form{
+    cursor: pointer;
+    color: #fff;
+    padding: 16px 48px;
+    background: #1d1d1d;
+    border-radius: 8px;
+}
 .style-none{
     list-style-type: none;
 }
