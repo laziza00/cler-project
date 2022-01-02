@@ -169,10 +169,6 @@ body {
     margin-right: 14px;
 }
 
-
-
-
-
 .about-inner{
     padding-top: 71px;
 
@@ -587,6 +583,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.footer-item:not(:last-child){
+    margin-right: 50px;
 }
 .insta{
     display: flex;
