@@ -11,10 +11,10 @@ body {
     font-weight: 700;
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: #fff;
-    /* padding: 0 45px; */
 } 
   
 .container {
+    padding: 0 45px;
     width: 1200px;
     margin: auto;
 }
@@ -64,9 +64,9 @@ body {
     padding: 95px 0 41px 0;
 }
 .site-img{
+    padding-right: 100px;
     display: flex;
-    justify-content: flex-end;
-    margin-left: auto;
+    justify-content: center;
 }
 .hero-img{
     content: '';
