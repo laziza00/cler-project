@@ -84,12 +84,9 @@ body {
     font-weight: bold;
     font-size: 48px;
     line-height: 64px;
-    display: flex;
-    align-items: center;
     color: #fafafa;
     width: 549px;
     margin-bottom: 26px;
-    align-items: center;
 }
 
 .hero-text{
@@ -101,17 +98,14 @@ body {
     width: 437px;
     margin-bottom: 47px;
 }
-.hero-social-text{
-    display: inline-block;
+.hero-title-span{
+    display: block;
     display: flex;
     align-items: center;
     color: #000;
     background-color: #FDEC57;
     margin-right: 10px;
-    width: 280px;
-}
-.hero-soc-text{
-    margin-right: 7px;
+    width: 290px;
 }
 
 .link{
