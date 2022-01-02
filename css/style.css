@@ -345,7 +345,7 @@ body {
 
 
 .team-inner{
-    padding-top: 36px;
+    padding:36px 0 34px 0;
 }
 .team-title{
     margin-bottom: 79px;
@@ -356,9 +356,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
-.team-img-box{
-   
-}
+
 .team-img{
     display: block;
     margin: 0 auto;
@@ -389,7 +387,12 @@ body {
 
 
 
-
+.customer-inner{
+    padding: 104px 0 158px 0;
+}
+.customer-title{
+    margin-bottom: 75px;
+}
 
 
 
