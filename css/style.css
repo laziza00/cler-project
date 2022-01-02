@@ -508,7 +508,146 @@ body {
     padding: 16px 48px;
     background: #1d1d1d;
     border-radius: 8px;
+    border: none;
 }
+
+
+
+
+#footer-section{
+    background-color: #000;
+}
+.footer-inner{
+    padding: 80px 0 160px 0;
+}
+.footer-img-link{
+    margin-bottom: 18px;
+}
+.footer-list{
+    display: flex;
+}
+.footer-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #E3E3E3;
+    width: 230px;
+}
+
+.footer-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #828282;
+}
+.get-in-email{
+    display: flex;
+    margin-bottom: 24px;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+
+.email::before{
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/Mail.svg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-right: 18px;
+}
+.phone::before{
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/Phone.svg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-right: 18px;
+}
+.insta::before{
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/instagram.svg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.twitter::before{
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/twitter.svg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.facebook::before{
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/facebook.svg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.footer-email{
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 296px;
+    color: #ccc;
+    padding: 14px 14px 14px 16px;
+    border: none;
+    outline: none;
+    margin-bottom: 17px;
+}
+.footer-label{
+    color: #808080;
+}
+.foot-btn{
+    background: #FDEC57;
+    border-radius: 8px;
+    width: 296px;
+    padding: 14px 0;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .style-none{
     list-style-type: none;
 }
