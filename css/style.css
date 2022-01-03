@@ -221,15 +221,15 @@ body {
     padding-top: 91px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 .provide-item{
     display: flex;
-}   
-.provide-item{
     margin-bottom: 20px;
-}
+} 
+
+    
 .provide-title{
     font-weight: bold;
     font-size: 24px;
@@ -238,6 +238,9 @@ body {
     color: #333333;
 }
 .manage{
+    width: 182px;
+    height: 202px;
+    padding-right: 40px;
     background-image: url('../images/dot-box.svg');
     background-position: center 30px;
     background-repeat: no-repeat;
@@ -275,6 +278,10 @@ body {
 .img-list{
     display: flex;
     flex-wrap: wrap;
+    margin-left: auto;
+}
+.img-item{
+    
 }
 .img-item:nth-child(2n+1){
     margin-right: 15px;
@@ -420,11 +427,12 @@ body {
 
 .get-in-inner{
     display: flex;
-    padding: 5px 28px 129px 40px;
+    padding: 5px 6px 129px 118px;
 }
 .get-in-img{
+    display: block;
+    /* padding-left: 100px; */
     padding-top: 35px;
-    margin-left: auto;
     margin-bottom: 8px;
 }
 .map-img{
@@ -437,9 +445,9 @@ body {
     font-size: 16px;
     line-height: 32px;
     color: #808080;
-    margin-left: auto;
     text-align: center;
     align-items: center;
+    margin-left: auto;
 }
 .get-in-img-box{
     width: 654px;
